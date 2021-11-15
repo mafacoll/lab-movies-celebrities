@@ -1,0 +1,17 @@
+<h2> CELEBERITES, THEY'RE JUST LIKE US </h2>
+<form method= "POST" action="/celebrities/create">
+    <input name="name">
+    <input occupation="occupation">
+    <input catchPhrase="catchPhrase">
+
+    
+    {{#each name}}
+    <p>Name:{{this.name}}</p>
+    {{/each}}
+
+
+<button class="btn btn-outline-success" type="submit">SUBMIT</button>
+</form>
+
+
+
